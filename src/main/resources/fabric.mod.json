@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "player_radar",
+  "version": "${version}",
+  "name": "Player Radar",
+  "description": "A clean nearby-player list GUI for Minecraft 1.21.4.",
+  "authors": ["PlayerRadar"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.playerradar.PlayerRadarClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
